@@ -2,12 +2,13 @@
 
 import { motion } from 'framer-motion'
 import { Timeline } from '../ui/Timeline'
-import { 
-  Buildings, 
-  Code, 
-  TrendUp, 
+import {
+  Buildings,
+  Code,
+  TrendUp,
   Shield,
-  Rocket
+  Rocket,
+  Desktop
 } from 'phosphor-react'
 
 const Experience = () => {
@@ -78,6 +79,40 @@ const Experience = () => {
           </div>
           <div className="flex flex-wrap gap-2">
             {['React.js', 'Node.js', 'OpenAI API', 'JavaScript', 'TypeScript'].map((tech) => (
+              <span key={tech} className="px-3 py-1 bg-accent/20 text-accent text-sm rounded-full">
+                {tech}
+              </span>
+            ))}
+          </div>
+        </div>
+      ),
+    },
+    {
+      title: "July 2023 - Sep 2024",
+      content: (
+        <div>
+          <p className="text-text-primary text-xl md:text-2xl font-bold mb-4 flex items-center">
+            <Desktop className="mr-3 text-accent" size={28} />
+            IT Service Desk / IT Procurement - Parks Canada
+          </p>
+          <p className="text-text-secondary mb-6 text-lg leading-relaxed">
+            Gatineau, QC, Canada
+          </p>
+          <div className="mb-6">
+            <h4 className="text-accent font-semibold mb-3 text-lg">Key Achievements:</h4>
+            <ul className="space-y-2 text-text-secondary">
+              <li className="flex items-start">
+                <div className="w-2 h-2 bg-accent rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                Automated internal workflows using JavaScript and Jira's API, reducing IT ticket processing time by 40% and improving service desk response efficiency
+              </li>
+              <li className="flex items-start">
+                <div className="w-2 h-2 bg-accent rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                Built Excel dashboards with Lansweeper asset data to track and visualize over 1,200+ devices across multiple regions, improving procurement accuracy and saving an estimated 20+ staff hours per project cycle
+              </li>
+            </ul>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            {['JavaScript', 'Jira API', 'Excel', 'Lansweeper', 'IT Automation'].map((tech) => (
               <span key={tech} className="px-3 py-1 bg-accent/20 text-accent text-sm rounded-full">
                 {tech}
               </span>
