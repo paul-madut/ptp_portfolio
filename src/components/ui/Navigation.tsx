@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { List, X, GithubLogo, LinkedinLogo } from 'phosphor-react'
+import { List, X, GithubLogo, LinkedinLogo, FilePdf } from 'phosphor-react'
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -59,7 +59,17 @@ const Navigation = () => {
             {/* Social Links */}
             <div className="hidden md:flex items-center space-x-4">
               <motion.a
-                href="https://github.com"
+                href="/Paul_Madut___Developer (2).pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                whileHover={{ scale: 1.05 }}
+                className="flex items-center gap-2 px-4 py-2 bg-accent/20 hover:bg-accent/30 text-accent rounded-lg transition-all duration-200 border border-accent/30"
+              >
+                <FilePdf size={18} />
+                <span className="text-sm font-medium">View Resume</span>
+              </motion.a>
+              <motion.a
+                href="https://github.com/paul-madut"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1 }}
@@ -68,7 +78,7 @@ const Navigation = () => {
                 <GithubLogo size={20} />
               </motion.a>
               <motion.a
-                href="https://linkedin.com"
+                href="https://linkedin.com/in/paul-madut"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1 }}
@@ -113,25 +123,38 @@ const Navigation = () => {
                   {item.name}
                 </motion.a>
               ))}
+              <motion.a
+                href="/Paul_Madut___Developer (2).pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.5 }}
+                onClick={() => setIsOpen(false)}
+                className="flex items-center gap-2 px-6 py-3 bg-accent/20 hover:bg-accent/30 text-accent rounded-lg transition-all duration-200 border border-accent/30"
+              >
+                <FilePdf size={20} />
+                <span className="font-medium">View Resume</span>
+              </motion.a>
               <div className="flex space-x-6 mt-8">
                 <motion.a
-                  href="https://github.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  initial={{ opacity: 0, scale: 0.8 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{ delay: 0.5 }}
-                  className="text-text-secondary hover:text-accent transition-colors duration-200"
-                >
-                  <GithubLogo size={24} />
-                </motion.a>
-                <motion.a
-                  href="https://linkedin.com"
+                  href="https://github.com/paul-madut"
                   target="_blank"
                   rel="noopener noreferrer"
                   initial={{ opacity: 0, scale: 0.8 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ delay: 0.6 }}
+                  className="text-text-secondary hover:text-accent transition-colors duration-200"
+                >
+                  <GithubLogo size={24} />
+                </motion.a>
+                <motion.a
+                  href="https://linkedin.com/in/paul-madut"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  initial={{ opacity: 0, scale: 0.8 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ delay: 0.7 }}
                   className="text-text-secondary hover:text-accent transition-colors duration-200"
                 >
                   <LinkedinLogo size={24} />

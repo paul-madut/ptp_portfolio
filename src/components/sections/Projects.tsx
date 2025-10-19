@@ -5,63 +5,22 @@ import Card from '../ui/Card'
 import Button from '../ui/Button'
 import { ArrowSquareOut, GithubLogo } from 'phosphor-react'
 
-const Projects = () => {
-  const projects = [
-    {
-      title: 'FinTrader Pro',
-      description: 'Real-time trading platform with advanced analytics, portfolio management, and risk assessment tools.',
-      image: '/projects/fintrader.jpg',
-      tech: ['React', 'Node.js', 'WebSocket', 'PostgreSQL', 'Redis'],
-      liveUrl: 'https://fintrader-demo.com',
-      githubUrl: 'https://github.com/paulmadut/fintrader-pro',
-      featured: true
-    },
-    {
-      title: 'CryptoPayments API',
-      description: 'Secure cryptocurrency payment processing system with multi-wallet support and fraud detection.',
-      image: '/projects/cryptopay.jpg',
-      tech: ['Python', 'Django', 'Blockchain', 'AWS', 'Docker'],
-      liveUrl: 'https://cryptopay-api.com',
-      githubUrl: 'https://github.com/paulmadut/crypto-payments',
-      featured: true
-    },
-    {
-      title: 'Investment Dashboard',
-      description: 'Comprehensive investment tracking application with real-time market data and portfolio analytics.',
-      image: '/projects/investment.jpg',
-      tech: ['Next.js', 'TypeScript', 'Chart.js', 'TailwindCSS'],
-      liveUrl: 'https://investment-dash.com',
-      githubUrl: 'https://github.com/paulmadut/investment-dashboard',
-      featured: true
-    },
-    {
-      title: 'Smart Banking App',
-      description: 'Mobile-first banking application with AI-powered financial insights and budgeting tools.',
-      image: '/projects/banking.jpg',
-      tech: ['React Native', 'Express.js', 'MongoDB', 'TensorFlow'],
-      liveUrl: 'https://smart-banking.com',
-      githubUrl: 'https://github.com/paulmadut/smart-banking',
-      featured: false
-    },
-    {
-      title: 'Risk Management System',
-      description: 'Enterprise-grade risk assessment and management platform for financial institutions.',
-      image: '/projects/risk.jpg',
-      tech: ['Vue.js', 'Python', 'FastAPI', 'PostgreSQL', 'Kubernetes'],
-      liveUrl: 'https://risk-mgmt.com',
-      githubUrl: 'https://github.com/paulmadut/risk-management',
-      featured: false
-    },
-    {
-      title: 'Trading Bot Framework',
-      description: 'Algorithmic trading framework with backtesting capabilities and multiple exchange support.',
-      image: '/projects/tradingbot.jpg',
-      tech: ['Python', 'FastAPI', 'Redis', 'Docker', 'Machine Learning'],
-      liveUrl: 'https://trading-bot.com',
-      githubUrl: 'https://github.com/paulmadut/trading-bot',
-      featured: false
-    }
-  ]
+interface Project {
+  title: string
+  description: string
+  image: string
+  tech: string[]
+  liveUrl: string
+  githubUrl: string
+  featured: boolean
+  order?: number
+}
+
+interface ProjectsProps {
+  projects: Project[]
+}
+
+const Projects = ({ projects }: ProjectsProps) => {
 
   const containerVariants = {
     hidden: { opacity: 0 },

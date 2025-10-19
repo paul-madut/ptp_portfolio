@@ -5,7 +5,7 @@ import Testimonials from '@/components/sections/Testimonials'
 import Experience from '@/components/sections/Experience'
 import Skills from '@/components/sections/Skills'
 import HowIWork from '@/components/sections/HowIWork'
-import Projects from '@/components/sections/Projects'
+import ProjectsWrapper from '@/components/sections/ProjectsWrapper'
 import Contact from '@/components/sections/Contact'
 import Footer from '@/components/sections/Footer'
 
@@ -14,12 +14,12 @@ export default function Home() {
     <div className="min-h-screen">
       <Navigation />
       <Hero />
-      <FeaturedIn />
-      <Testimonials />
+      {/* <FeaturedIn /> */}
+      {/* <Testimonials /> */}
       <Experience />
       <Skills />
       <HowIWork />
-      <Projects />
+      <ProjectsWrapper />
       <Contact />
       <Footer />
     </div>

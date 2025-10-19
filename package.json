@@ -3,17 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
+    "dev": "tinacms dev -c \"next dev --turbopack\"",
+    "build": "tinacms build && next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@tinacms/cli": "^1.11.0",
     "framer-motion": "^12.23.9",
     "next": "15.4.4",
     "phosphor-react": "^1.4.1",
     "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "react-dom": "19.1.0",
+    "tinacms": "^2.9.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

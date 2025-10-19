@@ -1,0 +1,16 @@
+{
+  "title": "FinTrader Pro",
+  "description": "Real-time trading platform with advanced analytics, portfolio management, and risk assessment tools.",
+  "image": "/projects/fintrader.jpg",
+  "tech": [
+    "React",
+    "Node.js",
+    "WebSocket",
+    "PostgreSQL",
+    "Redis"
+  ],
+  "liveUrl": "https://fintrader-demo.com",
+  "githubUrl": "https://github.com/paulmadut/fintrader-pro",
+  "featured": true,
+  "order": 1
+}

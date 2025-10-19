@@ -1,0 +1,16 @@
+{
+  "title": "Risk Management System",
+  "description": "Enterprise-grade risk assessment and management platform for financial institutions.",
+  "image": "/projects/risk.jpg",
+  "tech": [
+    "Vue.js",
+    "Python",
+    "FastAPI",
+    "PostgreSQL",
+    "Kubernetes"
+  ],
+  "liveUrl": "https://risk-mgmt.com",
+  "githubUrl": "https://github.com/paulmadut/risk-management",
+  "featured": false,
+  "order": 5
+}

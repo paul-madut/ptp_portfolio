@@ -1,0 +1,15 @@
+{
+  "title": "Smart Banking App",
+  "description": "Mobile-first banking application with AI-powered financial insights and budgeting tools.",
+  "image": "/projects/banking.jpg",
+  "tech": [
+    "React Native",
+    "Express.js",
+    "MongoDB",
+    "TensorFlow"
+  ],
+  "liveUrl": "https://smart-banking.com",
+  "githubUrl": "https://github.com/paulmadut/smart-banking",
+  "featured": false,
+  "order": 4
+}

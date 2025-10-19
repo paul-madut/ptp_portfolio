@@ -1,0 +1,16 @@
+{
+  "title": "CryptoPayments API",
+  "description": "Secure cryptocurrency payment processing system with multi-wallet support and fraud detection.",
+  "image": "/projects/cryptopay.jpg",
+  "tech": [
+    "Python",
+    "Django",
+    "Blockchain",
+    "AWS",
+    "Docker"
+  ],
+  "liveUrl": "https://cryptopay-api.com",
+  "githubUrl": "https://github.com/paulmadut/crypto-payments",
+  "featured": true,
+  "order": 2
+}

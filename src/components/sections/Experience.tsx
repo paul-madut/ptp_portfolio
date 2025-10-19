@@ -13,114 +13,32 @@ import {
 const Experience = () => {
   const timelineData = [
     {
-      title: "2024 - Present",
-      content: (
-        <div>
-          <p className="text-text-primary text-xl md:text-2xl font-bold mb-4 flex items-center">
-            <Buildings className="mr-3 text-accent" size={28} />
-            Senior Full-Stack Engineer - FinTech Innovations
-          </p>
-          <p className="text-text-secondary mb-6 text-lg leading-relaxed">
-            Leading the development of next-generation trading platforms and financial analytics tools.
-            Architecting scalable microservices handling millions of transactions daily.
-          </p>
-          <div className="mb-6">
-            <h4 className="text-accent font-semibold mb-3 text-lg">Key Achievements:</h4>
-            <ul className="space-y-2 text-text-secondary">
-              <li className="flex items-start">
-                <div className="w-2 h-2 bg-accent rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                Built real-time trading platform handling 10M+ transactions/day with 99.99% uptime
-              </li>
-              <li className="flex items-start">
-                <div className="w-2 h-2 bg-accent rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                Reduced system latency by 75% through advanced caching and optimization
-              </li>
-              <li className="flex items-start">
-                <div className="w-2 h-2 bg-accent rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                Led team of 8 developers in migrating legacy systems to modern architecture
-              </li>
-            </ul>
-          </div>
-          <div className="flex flex-wrap gap-2">
-            {['React', 'Node.js', 'TypeScript', 'Python', 'PostgreSQL', 'Redis', 'AWS', 'Docker'].map((tech) => (
-              <span key={tech} className="px-3 py-1 bg-accent/20 text-accent text-sm rounded-full">
-                {tech}
-              </span>
-            ))}
-          </div>
-        </div>
-      ),
-    },
-    {
-      title: "2022 - 2024",
-      content: (
-        <div>
-          <p className="text-text-primary text-xl md:text-2xl font-bold mb-4 flex items-center">
-            <Code className="mr-3 text-accent" size={28} />
-            Full-Stack Developer - CryptoFlow Systems
-          </p>
-          <p className="text-text-secondary mb-6 text-lg leading-relaxed">
-            Developed secure cryptocurrency payment processing systems and blockchain integration solutions.
-            Built DeFi protocols and smart contract interfaces for institutional clients.
-          </p>
-          <div className="mb-6">
-            <h4 className="text-accent font-semibold mb-3 text-lg">Key Achievements:</h4>
-            <ul className="space-y-2 text-text-secondary">
-              <li className="flex items-start">
-                <div className="w-2 h-2 bg-accent rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                Implemented multi-signature wallet system processing $50M+ in transactions
-              </li>
-              <li className="flex items-start">
-                <div className="w-2 h-2 bg-accent rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                Created fraud detection algorithms reducing false positives by 60%
-              </li>
-              <li className="flex items-start">
-                <div className="w-2 h-2 bg-accent rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                Developed cross-chain bridge supporting 15+ blockchain networks
-              </li>
-            </ul>
-          </div>
-          <div className="flex flex-wrap gap-2">
-            {['Python', 'Django', 'Solidity', 'Web3.js', 'PostgreSQL', 'MongoDB', 'Kubernetes'].map((tech) => (
-              <span key={tech} className="px-3 py-1 bg-accent/20 text-accent text-sm rounded-full">
-                {tech}
-              </span>
-            ))}
-          </div>
-        </div>
-      ),
-    },
-    {
-      title: "2020 - 2022",
+      title: "Sept 2025 - Present",
       content: (
         <div>
           <p className="text-text-primary text-xl md:text-2xl font-bold mb-4 flex items-center">
             <TrendUp className="mr-3 text-accent" size={28} />
-            Software Engineer - Investment Analytics Corp
+            Junior Fullstack Developer - Tradeful
           </p>
           <p className="text-text-secondary mb-6 text-lg leading-relaxed">
-            Built comprehensive investment tracking and portfolio management platforms.
-            Developed algorithmic trading strategies and backtesting frameworks.
+            Building advanced backtesting and trading strategy validation tools for algorithmic traders.
+            Developing high-performance systems for real-time market data analysis.
           </p>
           <div className="mb-6">
             <h4 className="text-accent font-semibold mb-3 text-lg">Key Achievements:</h4>
             <ul className="space-y-2 text-text-secondary">
               <li className="flex items-start">
                 <div className="w-2 h-2 bg-accent rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                Created portfolio optimization engine managing $100M+ in assets
+                Developed backtesting engine using React.js and Node.js, enabling traders to simulate strategies across 5+ years of historical market data with sub-500ms query response times
               </li>
               <li className="flex items-start">
                 <div className="w-2 h-2 bg-accent rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                Built real-time market data processing system with microsecond latency
-              </li>
-              <li className="flex items-start">
-                <div className="w-2 h-2 bg-accent rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                Developed ML models for risk assessment with 85% accuracy improvement
+                Engineered trading strategy validation features that helped users identify profitable algorithms, contributing to a 35% increase in platform retention rates
               </li>
             </ul>
           </div>
           <div className="flex flex-wrap gap-2">
-            {['React', 'Node.js', 'Python', 'TensorFlow', 'MySQL', 'Apache Kafka', 'Jenkins'].map((tech) => (
+            {['React.js', 'Node.js', 'TypeScript', 'MongoDB', 'WebSocket', 'Express.js'].map((tech) => (
               <span key={tech} className="px-3 py-1 bg-accent/20 text-accent text-sm rounded-full">
                 {tech}
               </span>
@@ -130,36 +48,36 @@ const Experience = () => {
       ),
     },
     {
-      title: "2019 - 2020",
+      title: "May 2025 - Sept 2025",
       content: (
         <div>
           <p className="text-text-primary text-xl md:text-2xl font-bold mb-4 flex items-center">
-            <Shield className="mr-3 text-accent" size={28} />
-            Junior Developer - SecureBank Solutions
+            <Buildings className="mr-3 text-accent" size={28} />
+            Full Stack Developer Intern - ReInvest Wealth
           </p>
           <p className="text-text-secondary mb-6 text-lg leading-relaxed">
-            Developed secure banking applications and payment processing systems.
-            Worked on regulatory compliance tools and fraud prevention systems.
+            Enhanced fintech platform performance and developed innovative features for wealth management and accounting workflows.
+            Integrated AI-powered solutions to streamline financial operations.
           </p>
           <div className="mb-6">
             <h4 className="text-accent font-semibold mb-3 text-lg">Key Achievements:</h4>
             <ul className="space-y-2 text-text-secondary">
               <li className="flex items-start">
                 <div className="w-2 h-2 bg-accent rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                Implemented PCI DSS compliant payment processing system
+                Upgraded React.js frontend, reducing component load times by 40% and improving application performance across 500+ users
               </li>
               <li className="flex items-start">
                 <div className="w-2 h-2 bg-accent rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                Built automated compliance reporting reducing manual work by 80%
+                Developed multi-company access feature using React.js and Node.js, enabling shared accounting workflows that increased team-based platform usage by 25%
               </li>
               <li className="flex items-start">
                 <div className="w-2 h-2 bg-accent rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                Developed secure API gateway handling 1M+ requests daily
+                Enhanced AI receipt processing feature using OpenAI computer vision to automatically scan receipts and match them to transactions, improving data accuracy by 35% and reducing manual entry time
               </li>
             </ul>
           </div>
           <div className="flex flex-wrap gap-2">
-            {['Java', 'Spring Boot', 'Angular', 'Oracle DB', 'REST APIs', 'Git', 'Maven'].map((tech) => (
+            {['React.js', 'Node.js', 'OpenAI API', 'JavaScript', 'TypeScript'].map((tech) => (
               <span key={tech} className="px-3 py-1 bg-accent/20 text-accent text-sm rounded-full">
                 {tech}
               </span>
@@ -169,36 +87,71 @@ const Experience = () => {
       ),
     },
     {
-      title: "2018 - 2019",
+      title: "Sep 2023 - Jul 2024",
+      content: (
+        <div>
+          <p className="text-text-primary text-xl md:text-2xl font-bold mb-4 flex items-center">
+            <Code className="mr-3 text-accent" size={28} />
+            Lead Full Stack Developer - Fincnx
+          </p>
+          <p className="text-text-secondary mb-6 text-lg leading-relaxed">
+            Led development of finance-focused social media platform combining trading capabilities with social networking.
+            Built prototypes for major financial institutions and implemented real-time portfolio tracking.
+          </p>
+          <div className="mb-6">
+            <h4 className="text-accent font-semibold mb-3 text-lg">Key Achievements:</h4>
+            <ul className="space-y-2 text-text-secondary">
+              <li className="flex items-start">
+                <div className="w-2 h-2 bg-accent rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                Led development of finance-focused social media platform using Django and React.js, achieving 1,500+ active users with 98% uptime
+              </li>
+              <li className="flex items-start">
+                <div className="w-2 h-2 bg-accent rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                Designed functional prototypes for Bank of Montreal, National Bank, and Investment Planning Council Canada, demonstrating algorithmic trading capabilities
+              </li>
+              <li className="flex items-start">
+                <div className="w-2 h-2 bg-accent rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                Implemented real-time portfolio tracking system with WebSocket connections and Redis caching, enabling live updates for 500+ concurrent users with sub-100ms latency
+              </li>
+            </ul>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            {['Django', 'React.js', 'Python', 'WebSocket', 'Redis', 'PostgreSQL'].map((tech) => (
+              <span key={tech} className="px-3 py-1 bg-accent/20 text-accent text-sm rounded-full">
+                {tech}
+              </span>
+            ))}
+          </div>
+        </div>
+      ),
+    },
+    {
+      title: "Apr 2023 - Present",
       content: (
         <div>
           <p className="text-text-primary text-xl md:text-2xl font-bold mb-4 flex items-center">
             <Rocket className="mr-3 text-accent" size={28} />
-            Software Development Intern - TechStart Ventures
+            Founder & Frontend Developer - WebFlux
           </p>
           <p className="text-text-secondary mb-6 text-lg leading-relaxed">
-            Started my journey in fintech working on startup projects and learning modern development practices.
-            Contributed to early-stage products and gained experience in agile development.
+            Founded web development agency delivering custom applications to small businesses.
+            Building high-converting web solutions for companies generating significant revenue.
           </p>
           <div className="mb-6">
             <h4 className="text-accent font-semibold mb-3 text-lg">Key Achievements:</h4>
             <ul className="space-y-2 text-text-secondary">
               <li className="flex items-start">
                 <div className="w-2 h-2 bg-accent rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                Built MVP for fintech startup that secured $2M in Series A funding
+                Built high-converting homepage component using React.js and WordPress for One of One Funding, increasing user interaction by 17% for company generating $1M+ monthly revenue
               </li>
               <li className="flex items-start">
                 <div className="w-2 h-2 bg-accent rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                Implemented automated testing pipeline increasing code coverage to 95%
-              </li>
-              <li className="flex items-start">
-                <div className="w-2 h-2 bg-accent rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                Learned modern JavaScript frameworks and cloud deployment practices
+                Delivered custom web applications to 25+ small businesses using Next.js and modern JavaScript frameworks
               </li>
             </ul>
           </div>
           <div className="flex flex-wrap gap-2">
-            {['JavaScript', 'React', 'Node.js', 'MongoDB', 'Express.js', 'AWS', 'Jest'].map((tech) => (
+            {['React.js', 'Next.js', 'WordPress', 'JavaScript', 'TypeScript', 'Tailwind CSS'].map((tech) => (
               <span key={tech} className="px-3 py-1 bg-accent/20 text-accent text-sm rounded-full">
                 {tech}
               </span>

@@ -54,7 +54,7 @@ const Hero = () => {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.2, duration: 0.6 }}
-            className="inline-flex items-center glass px-4 py-2 rounded-full text-sm text-text-secondary"
+            className="inline-flex items-center glass px-4 py-2 mt-14 rounded-full text-sm text-text-secondary"
           >
             <Code className="mr-2" size={16} />
             Full-Stack Software Engineer
@@ -69,9 +69,7 @@ const Hero = () => {
           >
             <span className="gradient-text">Paul Madut</span>
             <br />
-            <span className="text-text-primary">Full-Stack</span>
-            <br />
-            <span className="text-text-primary">Software Engineer</span>
+            <span className="text-text-primary">Full-Stack Dev</span> 
           </motion.h1>
 
           {/* Subtitle */}

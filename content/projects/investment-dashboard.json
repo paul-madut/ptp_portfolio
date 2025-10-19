@@ -1,0 +1,15 @@
+{
+  "title": "Investment Dashboard",
+  "description": "Comprehensive investment tracking application with real-time market data and portfolio analytics.",
+  "image": "/projects/investment.jpg",
+  "tech": [
+    "Next.js",
+    "TypeScript",
+    "Chart.js",
+    "TailwindCSS"
+  ],
+  "liveUrl": "https://investment-dash.com",
+  "githubUrl": "https://github.com/paulmadut/investment-dashboard",
+  "featured": true,
+  "order": 3
+}
