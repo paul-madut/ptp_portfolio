@@ -50,7 +50,7 @@ const Contact = () => {
     {
       icon: <MapPin size={24} />,
       title: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Ottawa, ON, Canada',
       href: '#'
     }
   ]
@@ -59,7 +59,7 @@ const Contact = () => {
     {
       icon: <GithubLogo size={24} />,
       label: 'GitHub',
-      href: 'https://github.com/paulmadut'
+      href: 'https://github.com/paul-madut'
     },
     {
       icon: <LinkedinLogo size={24} />,

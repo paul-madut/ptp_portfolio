@@ -15,7 +15,7 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: <GithubLogo size={24} />,
-      href: 'https://github.com/paulmadut',
+      href: 'https://github.com/paul-madut',
       label: 'GitHub'
     },
     {
@@ -98,7 +98,7 @@ const Footer = () => {
                   paul@paulmadut.com
                 </a>
               </p>
-              <p className="text-text-secondary">San Francisco, CA</p>
+              <p className="text-text-secondary">Canada, ON</p>
               <div className="flex items-center space-x-2 text-green-400">
                 <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
                 <span className="text-sm">Available for new projects</span>
@@ -119,7 +119,7 @@ const Footer = () => {
               © {new Date().getFullYear()} Paul Madut. All rights reserved.
             </p>
             <p className="text-text-muted text-sm flex items-center">
-              Built with <Heart className="mx-1 text-red-400" size={16} /> using Next.js & TypeScript
+              Built using Next.js & TypeScript
             </p>
           </div>
         </motion.div>

@@ -1,16 +1,15 @@
 {
-  "title": "CryptoPayments API",
-  "description": "Secure cryptocurrency payment processing system with multi-wallet support and fraud detection.",
+  "title": "B2Lead",
+  "description": "Built automated lead generation SaaS using Next.js and MongoDB, reducing lead acquisition costs by $1,000+ monthly. ",
   "image": "/projects/cryptopay.jpg",
   "tech": [
-    "Python",
-    "Django",
-    "Blockchain",
-    "AWS",
-    "Docker"
+    "Next js",
+    "JavaScript",
+    "Firebase",
+    "Tailwind Css"
   ],
-  "liveUrl": "https://cryptopay-api.com",
-  "githubUrl": "https://github.com/paulmadut/crypto-payments",
+  "liveUrl": "https://lead-scraper.vercel.app/",
+  "githubUrl": "https://github.com/paul-madut/",
   "featured": true,
   "order": 2
 }

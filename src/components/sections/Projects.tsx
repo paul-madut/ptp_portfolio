@@ -70,14 +70,22 @@ const Projects = ({ projects }: ProjectsProps) => {
                 <Card className="h-full flex flex-col group">
                   {/* Project Image */}
                   <div className="relative overflow-hidden rounded-lg mb-6 bg-gradient-to-br from-accent/20 to-purple-500/20 h-48">
-                    <div className="absolute inset-0 flex items-center justify-center text-text-muted">
-                      <div className="text-center">
-                        <div className="w-16 h-16 glass rounded-lg flex items-center justify-center mx-auto mb-2">
-                          <ArrowSquareOut size={24} />
+                    {project.image ? (
+                      <img
+                        src={project.image}
+                        alt={project.title}
+                        className="w-full h-full object-cover"
+                      />
+                    ) : (
+                      <div className="absolute inset-0 flex items-center justify-center text-text-muted">
+                        <div className="text-center">
+                          <div className="w-16 h-16 glass rounded-lg flex items-center justify-center mx-auto mb-2">
+                            <ArrowSquareOut size={24} />
+                          </div>
+                          <p className="text-sm">Project Preview</p>
                         </div>
-                        <p className="text-sm">Project Preview</p>
                       </div>
-                    </div>
+                    )}
                     {project.featured && (
                       <div className="absolute top-4 right-4 bg-accent px-3 py-1 rounded-full text-xs font-medium">
                         Featured
@@ -143,7 +151,7 @@ const Projects = ({ projects }: ProjectsProps) => {
             <Button
               variant="outline"
               size="lg"
-              href="https://github.com/paulmadut"
+              href="https://github.com/paul-madut"
               target="_blank"
               rel="noopener noreferrer"
             >

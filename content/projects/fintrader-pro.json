@@ -1,16 +1,15 @@
 {
-  "title": "FinTrader Pro",
-  "description": "Real-time trading platform with advanced analytics, portfolio management, and risk assessment tools.",
+  "title": "Paul The Programmer",
+  "description": "Created educational content on software engineering topics across YouTube, Instagram and TikTok, achieving 500,000+ total views. ",
   "image": "/projects/fintrader.jpg",
   "tech": [
-    "React",
-    "Node.js",
-    "WebSocket",
-    "PostgreSQL",
-    "Redis"
+    "Instagram",
+    "LinkedIn",
+    "Tiktok",
+    "Youtube"
   ],
-  "liveUrl": "https://fintrader-demo.com",
-  "githubUrl": "https://github.com/paulmadut/fintrader-pro",
+  "liveUrl": "https://linktr.ee/paultheprogrammer",
+  "githubUrl": "https://github.com/paul-madut/",
   "featured": true,
   "order": 1
 }
